@@ -1,0 +1,52 @@
+body {
+  background: #e6f7e8;
+  font-family: "Times New Roman", Times, serif;
+  margin: 25px;
+  padding: 0%;
+}
+
+form {
+  background-color: #f4f4f4;
+  /* Light Gray */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 1 0 10px rgba(0, 0, 0, 1);
+  width: auto;
+  margin: auto;
+  border-radius: 9px;
+  border: 4px solid #3498bd;
+  border-color: #3498bd;
+}
+
+form:hover {
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1:hover {
+  color: wheat;
+}
+
+fieldset {
+  border: 2px solid #3498bd;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+  color: black;
+  box-shadow: 1 0 10px rgba(0, 0, 0, 1);
+  background-color: green;
+}
+
+botton:hover {
+  background-color: red;
+}
+
+legend {
+  text-align: center;
+  color: blueviolet;
+}
