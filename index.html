@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="resume.css" />
+</head>
+
+<body>
+  <h1>Static Resume Builder by Asharib</h1>
+
+  <form id="Person Info">
+    <fieldset>
+      <legend>Personal Info</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="Name" name="name" required />
+      <label for="FullName">Fullname:</label>
+      <input type="text" id="Fullname" name="Fullname" required />
+      <label for="Mail">Email:</label>
+      <input type="email" id="Mail" name="Email" required />
+      <label for="Phone">Phone:</label>
+      <input type="Contact" id="Phone" name="Number" required />
+    </fieldset>
+
+    <fieldset>
+      <legend>Education</legend>
+      <textarea name="Education*" rows="2" id="edu"></textarea>
+      <label for="Field"> Field Of Study</label>
+      <input type="text" id="Study" name="Field" required />
+      <label for="Degree">Degree</label>
+      <input type="text" id="Edu" />
+      <label for="Uni">Uni</label>
+      <input type="text" id="Vercity" />
+      <label for="Certificate">Certification</label>
+      <input type="text" id="Certificate" />
+    </fieldset>
+    <fieldset>
+      <legend>Experience</legend>
+      <textarea name="Experince" rows="4" id="exp" required="Exp"> </textarea>
+    </fieldset>
+    <fieldset>
+      <legend>Skills</legend>
+      <textarea name="Skill" rows="4" id="Skill" required="Skills"> </textarea>
+    </fieldset>
+    <button id="Submit" name="Submit">Generate Your Cv</button>
+  </form>
+  <div id="resumeOutput">
+   <!-- Resume Will BE Generated Below -->
+  </div>
+
+  <script src="Resume.js"></script>
+</body>
+
+</html>
